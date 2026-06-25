@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sample HTML Page</title>
+	<style>
+		body { font-family: Arial, sans-serif; margin: 2rem; }
+		header { margin-bottom: 1rem; }
+		.card { border: 1px solid #ddd; padding: 1rem; border-radius: 6px; max-width: 600px; }
+		button { padding: 0.5rem 1rem; }
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Welcome to the Sample Page</h1>
+		<p>A minimal HTML example with basic styling and interactivity.</p>
+	</header>
+
+	<main>
+		<section class="card">
+			<h2>Features</h2>
+			<ul>
+				<li>Responsive meta tag</li>
+				<li>Simple CSS</li>
+				<li>JavaScript interaction</li>
+			</ul>
+			<button id="greetBtn">Click me</button>
+		</section>
+	</main>
+
+	<script>
+		document.getElementById('greetBtn').addEventListener('click', function () {
+			alert('Hello from the sample HTML page!');
+		});
+	</script>
+</body>
+</html>
